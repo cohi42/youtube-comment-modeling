@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Anonymized YouTube Shorts Comment Record",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "video_id",
+      "video_title",
+      "video_published_at",
+      "video_view_count",
+      "comment_text",
+      "comment_like_count",
+      "comment_published_at"
+    ],
+    "properties": {
+      "video_id": {
+        "type": "string",
+        "description": "Anonymized or public YouTube video identifier."
+      },
+      "video_title": {
+        "type": "string"
+      },
+      "video_published_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "video_view_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "comment_text": {
+        "type": "string",
+        "description": "Anonymized and cleaned comment text."
+      },
+      "comment_like_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "comment_published_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "hours_after_publish": {
+        "type": "number",
+        "minimum": 0
+      },
+      "relevance_score": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "preference_proxy_score": {
+        "type": "number",
+        "description": "Bias-corrected proxy score, not a ground-truth quality label."
+      }
+    },
+    "additionalProperties": true
+  }
+}

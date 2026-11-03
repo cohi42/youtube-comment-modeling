@@ -1,0 +1,13 @@
+# Optional dependencies for Qwen-Omni LoRA/SFT reference experiments.
+# These are environment-specific and were originally used in a Colab GPU runtime.
+
+torch
+transformers
+accelerate
+peft
+bitsandbytes
+datasets
+qwen-omni-utils
+scenedetect
+Pillow
+librosa

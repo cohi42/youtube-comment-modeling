@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "toy_video_001",
+    "video_title": "매운 라면에 치즈를 올리는 숏폼",
+    "video_published_at": "2025-11-01T10:00:00Z",
+    "video_view_count": 820000,
+    "comment_text": "저 치즈 녹는 순간부터 이미 야식 버튼 눌림",
+    "comment_like_count": 421,
+    "comment_published_at": "2025-11-01T12:30:00Z",
+    "hours_after_publish": 2.5,
+    "relevance_score": 88,
+    "preference_proxy_score": 0.579
+  },
+  {
+    "video_id": "toy_video_001",
+    "video_title": "매운 라면에 치즈를 올리는 숏폼",
+    "video_published_at": "2025-11-01T10:00:00Z",
+    "video_view_count": 820000,
+    "comment_text": "와 이건 냄비째 들고 먹어야 하는 비주얼인데",
+    "comment_like_count": 173,
+    "comment_published_at": "2025-11-03T09:15:00Z",
+    "hours_after_publish": 47.25,
+    "relevance_score": 82,
+    "preference_proxy_score": 0.887
+  },
+  {
+    "video_id": "toy_video_002",
+    "video_title": "튀김 소리가 강조된 치킨 조리 숏폼",
+    "video_published_at": "2025-11-02T18:00:00Z",
+    "video_view_count": 240000,
+    "comment_text": "바삭 소리 듣자마자 배고파진 사람 손",
+    "comment_like_count": 96,
+    "comment_published_at": "2025-11-02T18:40:00Z",
+    "hours_after_publish": 0.67,
+    "relevance_score": 91,
+    "preference_proxy_score": 0.25
+  }
+]
